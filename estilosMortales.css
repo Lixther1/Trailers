@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --color-primary: #3498db; /* Azul metalizado */
+    --color-hover: #2980b9; /* Azul oscuro metalizado */
+    --color-text: #ecf0f1; /* Blanco */
+    --border-width: 2px;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
+    margin-top: 20vh; 
+}
+
+body {
+    margin: 0; 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.boton-verificacion, .boton-adicional {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    margin: 5px;
+}
+
+
+
+.boton-verificacion:hover, .boton-adicional:hover {
+    background-color: var(--color-hover);
+    transform: scale(1.05);
+}
+
+.boton-verificacion:focus, .boton-adicional:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.3);
+}
+
+#logoutForm {
+    position: fixed;
+    bottom: 10px;
+    left: 10px; 
+    z-index: 999; 
+}
+
+#logoutButton {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+
+
+
+

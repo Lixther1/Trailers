@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fffaf0f0;
+  overflow: hidden;
+}
+
+
+.login {
+  position: absolute;
+  width: 90%; 
+  max-width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login h2 {
+  font-size: 2em;
+  color: #3498db;
+}
+
+.login form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.login .caixa__input {
+  position: relative;
+  width: 100%;
+}
+
+.login .caixa__input input {
+  width: 100%;
+  padding: 12px 20px;
+  background: transparent;
+  border: 2px solid #3498db;
+  border-radius: 40px;
+  font-size: 1.2em;
+  color: #000000;
+  box-shadow: none;
+  outline: none;
+}
+
+
+
+.login .links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 5%; 
+}
+
+::placeholder {
+  font-weight: bold;
+}
+
+.caixa__input input {
+  font-weight: bold;
+}
+
+.caixa__input input[type="submit"] {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background: linear-gradient(45deg, #3498db, #2980b9);
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.caixa__input input[type="submit"]:hover {
+  letter-spacing: 3px;
+  background-color: #3498db;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #2980b9 1px 3px 19px -2px;
+}
+
+

@@ -1,0 +1,96 @@
+
+#contenedor-regresar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    position: fixed;
+}
+
+.boton-regresar {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.boton-regresar img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+#checklist-form {
+            display: none;
+            width: 90%;
+            margin-top: 40px;
+            position: absolute;
+        }
+
+table {
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+.checkbox {
+    text-align: center;
+    width: 110px;
+}
+.checked {
+    background-color: #8BC34A; /* Verde */
+}
+.unchecked {
+    background-color: #EF5350; /* Rojo */
+}
+.checkbox span {
+    cursor: pointer;
+    margin: 0 6px;
+}
+#checklist-form h3 {
+        text-align: center;
+         /* Centra el título h3 */
+    }
+
+    button[type="submit"] {
+        width: 20%;
+        padding: 12px 20px;
+        margin-top: 20px;
+        background-color: #007BFF;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-left: 100px; /* Ajusta el margen izquierdo según sea necesario */
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+
+            label {
+            display: inline-block;
+            margin-right: 10px; /* Espacio derecho entre label y select */
+            font-size: 16px; /* Tamaño de fuente */
+            color: #333; /* Color de texto */
+        }
+        
+        select {
+            padding: 8px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
